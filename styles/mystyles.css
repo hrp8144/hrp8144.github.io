@@ -47,6 +47,7 @@
   padding: 10px;
   position: relative;
   display: inline-block;
+  background-color: #F5F5F5;
 }
 
 .bordered-text h2 {
