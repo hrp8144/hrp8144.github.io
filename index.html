@@ -3,6 +3,14 @@
 <head>
   <title>Group 0115 - AI-Human Collaboration</title>
   	<link rel="stylesheet" href="styles/mystyles.css">
+	
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var lastUpdated = new Date(document.lastModified);
+      var lastUpdatedText = lastUpdated.toLocaleString();
+      document.getElementById('last-updated').textContent = lastUpdatedText;
+    });
+  </script>
   </head>
 
 <body>
@@ -31,6 +39,10 @@
  by Group 0115, consisting of Benson & Vincent.</address>
  
 <p><em>Made for Assignment 3 of COMP501 - Computing Technology in Society 2023 S1</p></em>
+
+  <footer>
+    <p>Last updated: <span id="last-updated"></span></p>
+  </footer>
 
  
 </body>
