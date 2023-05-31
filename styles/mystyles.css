@@ -55,15 +55,14 @@ body {
      padding: 10px;
 }
 
- .bordered-text {
-     border: 2px solid #2593DB;
-     padding: 10px;
-     position: relative;
-     display: inline-block;
-     /*background-color: #E6F2FF;*/
-     margin: 0 auto;
-     text-align: center;
+.bordered-text {
+  border: 2px solid #2593DB;
+  padding: 10px;
+  text-align: center; 
+  margin: 0 auto; 
+  max-width: 50%; 
 }
+
 
  .bordered-text::before {
      content: "";
