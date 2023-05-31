@@ -48,19 +48,19 @@ body {
      padding: 10px;
      text-align: center;
 }
- .center {
-     margin: auto;
-     width: 50%;
-     padding: 10px;
+
+.center {
+  text-align: center;
 }
- .bordered-text {
-     border: 2px solid #2593DB;
-     padding: 10px;
-     position: relative;
-     display: inline-block;
-     background-color: #E6F2FF;
-     margin: 0 auto;
-     text-align: center;
+
+.bordered-text {
+  border: 2px solid #2593DB;
+  padding: 10px;
+  display: inline-block;
+  background-color: #E6F2FF;
+  text-align: center;
+}
+
 }
  .bordered-text::before {
      content: "";
