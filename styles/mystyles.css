@@ -59,7 +59,7 @@ body {
      position: relative;
      display: inline-block;
      background-color: #E6F2FF;
-     margin: auto;
+     margin: 0 auto;
      text-align: center;
 }
  .bordered-text::before {
