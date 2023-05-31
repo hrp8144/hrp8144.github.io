@@ -56,7 +56,7 @@ body {
 }
 
 .bordered-text {
-  animation: fade-in-move-down 0.7s;
+  animation: fade-in-move-down 1.2s;
   border: 2px solid #2593DB;
   padding: 5px;
   text-align: center; 
