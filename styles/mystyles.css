@@ -8,14 +8,15 @@ body {
      color: white;
 }
  ul.navbar {
+     font-weight: bold;
      font-family: Arial, sans-serif;
      list-style-type: none;
-     padding: 0;
+     padding: 5px;
      margin: 0;
      position: absolute;
      top: 2em;
      left: 1em;
-     width: 10em 
+     width: 10em;
 }
  h1 {
      font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif 
