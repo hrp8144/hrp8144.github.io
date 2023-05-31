@@ -46,7 +46,7 @@
   display: inline-block;
   background-color: #F5F5F5;
   margin: auto;
-  text-align: center
+  text-align: center;
 }
 
 .bordered-text::before {
