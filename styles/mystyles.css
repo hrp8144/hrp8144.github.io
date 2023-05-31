@@ -1,12 +1,9 @@
   body {
-   padding-left: 11em;
-   font-family: Georgia, "Calibri",
-          Times, serif;
-		  color: purple;
-	  background: #2593DB;
-	  background: -moz-linear-gradient(left, #2593DB 0%, #000000 50%, #2593DB 100%);
-	  background: -webkit-linear-gradient(left, #2593DB 0%, #000000 50%, #2593DB 100%);
-	  background: linear-gradient(to right, #2593DB 0%, #000000 50%, #2593DB 100%); }
+  padding-left: 11em;
+  font-family: Georgia, Calibri;
+  background-color: #141c3a;
+  background-image: linear-gradient(to bottom right, #141c3a, #002b5c);
+  color: white;}
 
 
 		ul.navbar {
