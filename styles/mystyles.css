@@ -50,7 +50,10 @@ body {
 }
 
 .center {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .bordered-text {
@@ -60,6 +63,7 @@ body {
   background-color: #E6F2FF;
   text-align: center;
 }
+
 
 }
  .bordered-text::before {
