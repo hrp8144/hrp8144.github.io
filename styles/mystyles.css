@@ -48,6 +48,7 @@
   position: relative;
   display: inline-block;
   background-color: #F5F5F5;
+  margin: auto;
 }
 
 .bordered-text h2 {
@@ -55,7 +56,6 @@
   top: 0;
   left: 0;
   margin: 0;
-  background-color: white;
   padding: 5px;
 }
 
