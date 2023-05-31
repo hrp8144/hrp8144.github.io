@@ -8,6 +8,7 @@ body {
      color: white;
 }
  ul.navbar {
+     font-family: Arial, sans-serif;
      list-style-type: none;
      padding: 0;
      margin: 0;
