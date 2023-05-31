@@ -40,6 +40,7 @@ body {
      border-top: thin dotted 
 }
  footer {
+     font-family: Verdana, Geneva, sans-serif;
      position: fixed;
      bottom: 0;
      left: 0;
