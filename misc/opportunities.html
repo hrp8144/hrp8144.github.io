@@ -8,6 +8,13 @@
         border: 2px solid black;
         padding: 10px;
         margin-bottom: 20px;
+        display: flex; /* Added this line to create a flex container */
+        align-items: flex-start; /* Added this line to align items to the top */
+      }
+      .bordered-text img {
+        width: 300px;
+        height: auto;
+        margin-left: auto; /* Added this line to push the image to the right */
       }
     </style>
     <script>
@@ -17,9 +24,9 @@
         document.getElementById('last-updated').textContent = lastUpdatedText;
       });
     </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Site navigation menu -->
@@ -43,10 +50,12 @@
     </ul>
     <!-- Main content -->
     <div class="bordered-text">
-      <h1>AI-Human Collaboration & The Job Market</h1>
-      <p>This site is an overview of the group topic "AI-Human Collaboration in The Job Market".</p>
-      <p>On the left are columns in which you can click on to view the respective research areas of the topic.</p>
-       <img src="../images/R1804J_WILSON_COLLABORATION.png" alt="AI-HUMAN" style="width: 300px; height: auto; float: right;">
+      <div>
+        <h1>AI-Human Collaboration & The Job Market</h1>
+        <p>This site is an overview of the group topic "AI-Human Collaboration in The Job Market".</p>
+        <p>On the left are columns in which you can click on to view the respective research areas of the topic.</p>
+      </div>
+      <img src="../images/R1804J_WILSON_COLLABORATION.png" alt="AI-HUMAN">
     </div>
     <!-- Point: Creates new possibilities through machine learning and natural language processing -->
     <div class="bordered-text">
@@ -67,16 +76,14 @@
     <div class="bordered-text">
       <h2>Rise of the "Gig Economy" Jobs Empowered by AI:</h2>
       <p>The emergence of AI-enabled roles is transforming the nature of work, giving rise to the "gig economy" and flexible work options. AI technologies empower individuals to leverage their expertise and skills in versatile ways, adapting to market demands and sustaining independent work arrangements. Through online platforms and marketplaces, AI connects freelancers, consultants, and contractors with opportunities that match their skills and interests. This allows workers to engage in project-based work, take on multiple clients, and have greater control over their professional lives. The flexibility provided by AI in the job market fosters a dynamic ecosystem where individuals can thrive based on their unique capabilities and preferences.</p>
-   <img src="../images/economia-gig-economy-1024x614 (1).jpg" alt="economia-gig-economy" style="width: 300px; height: auto;">
-
-
+      <img src="../images/economia-gig-economy-1024x614 (1).jpg" alt="economia-gig-economy" style="width: 300px; height: auto;">
     </div>
     <!-- Sign and date the page, it's only polite! -->
     <address>June 2023 <br> by Group 0115, consisting of Benson & Vincent. 
-    <p>
-      <em>Made for Assignment 3 of COMP501 - Computing Technology in Society 2023 S1 </em>
-    </p>
-      </address>
+      <p>
+        <em>Made for Assignment 3 of COMP501 - Computing Technology in Society 2023 S1 </em>
+      </p>
+    </address>
     <footer>
       <p>Last updated: <span id="last-updated"></span>
       </p>
