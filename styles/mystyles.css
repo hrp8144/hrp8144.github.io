@@ -42,7 +42,7 @@ body {
 }
  footer {
      font-family: Arial, sans-serif;
-     position: fixed;
+     position: relative;
      bottom: 0;
      left: 0;
      width: 100%;
