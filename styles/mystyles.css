@@ -60,10 +60,11 @@ body {
 .bordered-text {
   animation: fade-in-move-down 1.2s;
   border: 2px solid #2593DB;
-  padding: 5px;
-  text-align: center; 
-  margin: 0 auto; 
-  max-width: 50%; 
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  max-width: 50%;
 }
 
 @keyframes fade-in-move-down {
