@@ -23,6 +23,10 @@ h1 {
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 ul.navbar li {
   background: white;
   margin: 0.5em 0;
@@ -71,7 +75,7 @@ footer {
 
 .image {
   flex: 0 0 300px;
-  margin-left: -369px;
+  margin-left: -400px;
 }
 
 .center {
