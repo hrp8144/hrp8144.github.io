@@ -15,18 +15,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     
     <style>
-ul {
+.bordered-text ul {
+  text-align: center;
   padding-left: 0;
 }
 
-ul li {
+.bordered-text li {
   list-style-type: none;
   text-align: left;
 }
 
-ul li:before {
+.bordered-text li:before {
   content: "\2022";
   margin-right: 0.5em;
+  float: left;
+}
+
+.bordered-text li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 }
       
     </style>
