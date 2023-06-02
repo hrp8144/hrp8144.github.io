@@ -93,6 +93,7 @@ footer {
   padding: 10px;
   margin-bottom: 20px;
   max-width: 50%;
+  list-style-position: inside;
 }
 
 @keyframes fade-in-move-down {
