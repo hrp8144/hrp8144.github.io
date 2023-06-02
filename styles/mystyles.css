@@ -1,60 +1,82 @@
 body {
-     padding-left: 11em;
-     font-family: Georgia, Calibri;
-     background: linear-gradient(to bottom right, #141c3a, #002b5c);
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     color: white;
-}
- ul.navbar {
-     font-family: 'Lato', sans-serif;
-     list-style-type: none;
-     padding: 5px;
-     margin: 0;
-     position: absolute;
-     top: 2em;
-     left: 1em;
-     width: 10em;
-}
- h1 {
-     font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif 
-}
- ul.navbar li {
-     background: white;
-     margin: 0.5em 0;
-     padding: 0.3em;
-     border-right: 1em solid black 
-}
- ul.navbar a {
-     text-decoration: none 
-}
- a:link {
-     color: blue 
-}
- a:visited {
-     color: purple 
-}
- address {
-     margin-top: 1em;
-     padding-top: 1em;
-     border-top: thin dotted 
-}
- footer {
-     font-family: Arial, sans-serif;
-     position: relative;
-     bottom: 0;
-     left: 0;
-     width: 100%;
-     background-color: transparent;
-     padding: 10px;
-     text-align: center;
+  padding-left: 11em;
+  font-family: Georgia, Calibri;
+  background: linear-gradient(to bottom right, #141c3a, #002b5c);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
 
- .center {
-     margin: auto;
-     width: 50%;
-     padding: 10px;
+ul.navbar {
+  font-family: 'Lato', sans-serif;
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 10em;
+}
+
+h1 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+}
+
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black;
+}
+
+ul.navbar a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+}
+
+footer {
+  font-family: Arial, sans-serif;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image {
+  flex: 0 0 300px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 .bordered-text {
@@ -78,24 +100,10 @@ body {
   }
 }
 
- .bordered-text p {
-     margin-top: 30px;
-}
- 
- address {
-     font-family: Arial, sans-serif;
+.bordered-text p {
+  margin-top: 30px;
 }
 
-.container {
-  display: flex;
-  align-items: flex-start;
-}
-
-.content {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.image {
-  flex: 0 0 300px;
+address {
+  font-family: Arial, sans-serif;
 }
