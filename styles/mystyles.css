@@ -71,6 +71,7 @@ footer {
 
 .image {
   flex: 0 0 300px;
+  margin-left: -319px;
 }
 
 .center {
