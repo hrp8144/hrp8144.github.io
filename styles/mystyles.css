@@ -74,6 +74,7 @@ footer {
 }
 
 .image {
+  font-family: Arial, sans-serif;
   flex: 0 0 300px;
   margin-left: -518px;
 }
