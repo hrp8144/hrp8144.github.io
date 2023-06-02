@@ -85,3 +85,16 @@ body {
      font-family: Arial, sans-serif;
 }
 
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image {
+  flex: 0 0 300px;
+}
