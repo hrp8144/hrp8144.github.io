@@ -1,9 +1,55 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
-<head>
-  <title>"proposal" </title>
-  	<link rel="stylesheet" href="../styles/minimal-table.css">
-  </head>
+  <head>
+    <title>Group 0115 - AI-Human Collaboration</title>
+    <link rel="stylesheet" href="../styles/mystyles.css">
+	  
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var lastUpdated = new Date(document.lastModified);
+        var lastUpdatedText = lastUpdated.toLocaleString();
+        document.getElementById('last-updated').textContent = lastUpdatedText;
+      });
+    </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+	  
+	  <style>
+		  table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: black;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
+}
+		  
+	  </style>
 
 
 <body>
@@ -201,11 +247,14 @@
 <p><h4>TA name: ......................................., Date Proposal Approved:.../....../..........., </p></h4>
 
 <!-- Sign and date the page, it's only polite! -->
-<address>Made 1 March 2021<br>
-  by Tony Clear.</address>
- 
-<p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-<p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em 
-  
-</body>
-</html>
+
+    <address>June 2023 <br> by Group 0115, consisting of Benson & Vincent. 
+    <p>
+      <em>Made for Assignment 3 of COMP501 - Computing Technology in Society 2023 S1 <br>Thanks to Tony Clear for the foundation of the website</em>
+    </p>
+      </address>
+    <footer>
+      <p>Last updated: <span id="last-updated"></span>
+      </p>
+    </footer>
+ </html>
