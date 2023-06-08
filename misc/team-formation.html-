@@ -74,9 +74,9 @@ caption {
 	<body ><th>Team Member Details</th>
     
         
-        <th scope="col" class="last name">Wilson</th> 
-	    <th scope="col" class="first name">Benson</th> 
-        <th scope="col" class="id">20107401</th> 
+        <th scope="col" class="last name">Last Name</th> 
+	    <th scope="col" class="first name">First Name</th> 
+        <th scope="col" class="id">Student ID</th> 
 		
     </tr>
 	<hr />
@@ -84,9 +84,9 @@ caption {
 	
 	<p align = "left"</p>
 		<th scope="row">Team Member 1</th>
-		<td></td>
-		<td></td>
-        <td></td>
+		<td>Benson</td>
+		<td>Wilson</td>
+        <td>20107401</td>
 		
    </tr>
 	<p align = "left"</p>
